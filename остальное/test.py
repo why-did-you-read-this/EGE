@@ -1,2 +1,8 @@
-i = 12.00000000001 + 0.5
-print(round(i,0))
+f = open('26/26-35484.txt')
+f.readline()
+a = []
+for i in f.read().split():
+    if int(i) % 2 == 0:
+        a += [int(i)]
+
+print(len(a))
