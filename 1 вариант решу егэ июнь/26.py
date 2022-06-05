@@ -1,4 +1,6 @@
-f = [11, 13, 15, 12]
+f = open('26.txt')
+f.readline()
+f = [int(i) for i in f.readlines()]
 c = 0
 sr = 0
 nch_f = []
