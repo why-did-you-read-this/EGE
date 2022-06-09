@@ -1,4 +1,6 @@
-f = open('107_27_A.txt')
+f = open('KIM_0002848150_27_A.txt')
+
+
 n = int(f.readline())
 elems = [int(i) for i in f.readlines()]
 answers = [0] * n
@@ -20,4 +22,6 @@ for i in range(1, n):
     # < > < > < >
     leftSum = leftSum - elems[(i + (n // 2)) % n] + elems[i - 1]
 
-print(min(answers))
+print(answers.index(min(answers)) + 1)
+
+# Ответ: 152 524909
