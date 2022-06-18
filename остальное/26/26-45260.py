@@ -9,7 +9,6 @@ mesta.sort(reverse=True)
 print(mesta[0])
 max_r = 0
 min_m = 99999999999999999
-flag = 0
 
 for m in mesta:
     print(m[0])

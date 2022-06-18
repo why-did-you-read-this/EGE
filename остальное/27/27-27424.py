@@ -1,7 +1,7 @@
 f = open('27-B_demo.txt')
 n = int(f.readline())
 s = 0
-minn = 20001
+minn = 10 ** 20
 d = 0
 for i in range(n):
     x, y = map(int, f.readline().split())
